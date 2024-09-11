@@ -1,0 +1,55 @@
+/* Configuração global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #ff0000, #990000); /* Degradê de vermelho */
+    background-image: url('rita7-20230509164209.webp'); /* Imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Cabeçalho */
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 20px;
+    background-color: rgba(177, 25, 25, 0.995); /* Fundo preto translúcido para destaque */
+    margin-bottom: 30px;
+}
+
+/* Links de navegação (botões) */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(46, 17, 120, 0.843);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #a83737;
+}
+
+/* Parágrafos e outros elementos */
+p {
+    font-size: 1.2rem;
+    padding: 20px;
+    background-color: rgba(227, 86, 21, 0.6); /* Fundo translúcido para texto */
+    margin: 20px;
+    border-radius: 8px;
+}
